@@ -10,7 +10,7 @@ Build
 Build easily using
 
 ```shell
-$ projectDir/gradlew.sh
+$ projectDir/gradlew
 ```
 
 If you have the Android SDK and the Android Support Library repository installed, it should build with that one command.
