@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Viewr</string>
+    <string name="error_network">Network error</string>
+    <string name="gallery_empty_search_terms">Search terms cannot be empty</string>
+
+
+</resources>

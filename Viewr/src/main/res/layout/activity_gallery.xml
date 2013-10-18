@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/background_holo_light"
+
+              tools:context=".GalleryActivity"
+              android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/card"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:hint="Search Terms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/txtSearch"/>
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Go"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        style="@style/card">
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:numColumns="5"
+            android:horizontalSpacing="2dp"
+            android:verticalSpacing="2dp"
+            android:stretchMode="columnWidth"
+            android:id="@+id/photoGridView"/>
+    </LinearLayout>
+
+
+</LinearLayout>
