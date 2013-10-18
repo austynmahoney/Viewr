@@ -17,7 +17,7 @@ public class ViewrApp extends Application {
     public synchronized FlickrService getFlickrService() {
 
         if (mFlickrService == null) {
-            // Create a REST adapter which points to some server.
+            // Create a REST adapter which points to the Flickr API.
             RestAdapter restAdapter = new RestAdapter.Builder().setServer(FlickrService.FLICKR_API_URL)
                     //.setConverter(new GsonConverter(GsonUtil.getGsonInstance()))
                     .setClient(new OkClient())
