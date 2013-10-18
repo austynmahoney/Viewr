@@ -10,7 +10,7 @@ import retrofit.http.Query;
 public interface FlickrService {
 
 
-    public static final String FLICKR_API_KEY = "1dd17dde0fed7286935d83875fcc17dd";
+    public static final String FLICKR_API_KEY = "ADD_API_KEY_HERE";
     public static final String FLICKR_API_URL = "http://api.flickr.com/services/rest";
 
     public static final String NO_JSON_CALLBACK = "&nojsoncallback=1";
